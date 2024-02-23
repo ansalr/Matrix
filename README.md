@@ -9,12 +9,6 @@ git clone https://github.com/ansalr/Matrix.git
 
 ```
 
---> Move into the directory where we have the project files : 
-```bash
-cd StudyBud
-
-```
-
 --> Create a virtual environment :
 ```bash
 # Let's install virtualenv first
