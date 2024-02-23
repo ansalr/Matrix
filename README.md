@@ -1,20 +1,48 @@
-Cloning the repository
+# StudyBuddy
+</div>
+
+### Cloning the repository
+
 --> Clone the repository using the command below :
+```bash
+git clone https://github.com/divanov11/StudyBud.git
 
-git clone https://github.com/ansalr/Matrix.git
---> Move into the directory where we have the project files :
+```
 
+--> Move into the directory where we have the project files : 
+```bash
 cd StudyBud
---> Create a virtual environment :
 
+```
+
+--> Create a virtual environment :
+```bash
 # Let's install virtualenv first
 pip install virtualenv
 
 # Then we create our virtual environment
-virtualenv venv
+virtualenv envname
+
+```
+
 --> Activate the virtual environment :
+```bash
+envname\scripts\activate
 
-venv\scripts\activate
+```
+
 --> Install the requirements :
-
+```bash
 pip install -r requirements.txt
+
+```
+
+#
+
+### Running the App
+
+--> To run the App, we use :
+```bash
+python manage.py runserver
+
+```
