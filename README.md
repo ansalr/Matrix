@@ -1,4 +1,4 @@
-# StudyBuddy
+# Matrix
 </div>
 
 ### Cloning the repository
