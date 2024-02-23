@@ -5,7 +5,7 @@
 
 --> Clone the repository using the command below :
 ```bash
-git clone https://github.com/divanov11/StudyBud.git
+git clone https://github.com/ansalr/Matrix.git
 
 ```
 
@@ -21,13 +21,13 @@ cd StudyBud
 pip install virtualenv
 
 # Then we create our virtual environment
-virtualenv envname
+python -m venv venv
 
 ```
 
 --> Activate the virtual environment :
 ```bash
-envname\scripts\activate
+venv\Scripts\activate
 
 ```
 
@@ -36,7 +36,11 @@ envname\scripts\activate
 pip install -r requirements.txt
 
 ```
+--> Deactivate the virtual environment :
+```bash
+deactivate
 
+```
 #
 
 ### Running the App
